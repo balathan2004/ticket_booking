@@ -22,7 +22,7 @@ export default function YourTicket() {
       const res = (await response.json()) as BookingResponseConfig;
 
       if (res) {
-        setReply(res.message);
+       
         if (res.bookings) {
           setBookings(res.bookings);
         }
