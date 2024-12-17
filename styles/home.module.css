@@ -1,0 +1,57 @@
+.container{
+
+}
+
+.container h1{
+    margin-bottom: 2rem;
+}
+
+.container input{
+    display: block;
+}
+
+.container  .button{
+    margin: 1rem;
+    display: block;
+}
+
+.ticket_list{
+
+    margin: 2rem;
+
+}
+
+
+.ticket_list span{
+display: block;
+}
+
+.tickets_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem; 
+}
+
+.tickets_container article{
+    width: 300px;
+    height: auto;
+}
+
+.tickets_container article a{
+  display: block;
+  background-color: skyblue;
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.tickets_container article a:hover{
+    background-color: aqua;
+}

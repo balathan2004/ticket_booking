@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "ticketId": "product1",
+      "ticketName": "Baahubali: The Beginning",
+      "ticketPrice": 50.0,
+      "ticketDesc": "A thrilling experience that transports you to the epic world of Mahishmati. The General Admission ticket gives you access to a full day of action-packed scenes, stunning visuals, and a captivating storyline. Feel the power of Baahubali's journey, from his rise to his ultimate battle for justice."
+    },
+    {
+      "ticketId": "product2",
+      "ticketName": "RRR",
+      "ticketPrice": 80.0,
+      "ticketDesc": "An unmissable cinematic experience that brings together two of the most iconic freedom fighters in Indian history. With the VIP Pass, enjoy premium seating, access to exclusive behind-the-scenes footage, and special features that highlight the grand action sequences, intense drama, and electrifying performances by Jr. NTR and Ram Charan."
+    },
+    {
+      "ticketId": "product3",
+      "ticketName": "Kantara",
+      "ticketPrice": 45.0,
+      "ticketDesc": "Immerse yourself in the rich culture of the Western Ghats with this gripping thriller. The General Admission ticket includes entry to the event, where you’ll witness the power struggles between nature, tradition, and human emotion. The movie’s hauntingly beautiful music and jaw-dropping action scenes will keep you on the edge of your seat."
+    },
+    {
+      "ticketId": "product4",
+      "ticketName": "Vikram",
+      "ticketPrice": 60.0,
+      "ticketDesc": "A high-octane thriller featuring Kamal Haasan in a role that will leave you spellbound. With the Premium Ticket, you get access to an exclusive screening with a special pre-show commentary on the making of the film. Dive deeper into the film's intricate plot, high-tech action sequences, and the exceptional performances by the entire cast."
+    },
+    {
+      "ticketId": "product5",
+      "ticketName": "Master",
+      "ticketPrice": 55.0,
+      "ticketDesc": "A gripping face-off between Vijay and Vijay Sethupathi that will keep you at the edge of your seat. The Family Package gives you access to the screening for two adults and two children, making it the perfect experience for a family outing. Enjoy the electrifying music, thrilling chase sequences, and emotional rollercoaster as the two leads battle for supremacy."
+    }
+  ]
+}

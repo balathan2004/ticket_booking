@@ -1,0 +1,22 @@
+.container {
+  width: 500px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container label {
+  line-height: 35px;
+  font-size: 18px;
+}
+
+.container .input {
+  display: block;
+  margin-top: 1rem;
+}
+
+.container .button {
+  margin-top: 2rem;
+  height: 40px;
+}
