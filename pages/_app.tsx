@@ -4,8 +4,6 @@ import type { AppProps } from "next/app";
 import ReplyHolder from "@/components/context/reply_context";
 import ReplyPopup from "@/components/elements/ReplyPopup";
 import UserCredHolder from "@/components/context/user_context";
-import { useEffect } from "react";
-import { AuthResponseConfig } from "@/components/interfaces";
 import Wrapper from "@/components/context/wrapper";
 
 

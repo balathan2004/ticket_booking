@@ -1,6 +1,6 @@
 import { AuthResponseConfig, UserDataInterface } from "@/components/interfaces";
 import { NextApiRequest, NextApiResponse } from "next";
-import { setDoc, doc, collection } from "firebase/firestore";
+import { setDoc, doc } from "firebase/firestore";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth, firestore } from "@/components/firebase";
 import { setCookie } from "cookies-next";

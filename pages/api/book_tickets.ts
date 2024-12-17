@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+
 import { setDoc, doc, getDoc, updateDoc, arrayUnion } from "firebase/firestore";
 import { firestore } from "@/components/firebase";
 import { NextApiRequest, NextApiResponse } from "next";

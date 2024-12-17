@@ -1,6 +1,5 @@
 import {
   AuthResponseConfig,
-  ResponseConfig,
   UserDataInterface,
 } from "@/components/interfaces";
 import { NextApiRequest, NextApiResponse } from "next";
