@@ -55,3 +55,9 @@ display: block;
 .tickets_container article a:hover{
     background-color: aqua;
 }
+
+@media (max-width:500px){
+    .container{
+      width: 90%;
+    }
+  }
