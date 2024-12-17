@@ -24,7 +24,7 @@ const dirs = [
   { name: "Book Tickets", path: "/book_tickets" },
   { name: "Your Tickets", path: "/your_tickets" },
   { name: "Login", path: "/auth/login" },
-  { name: "signup", path: "/auth/register" },
+  { name: "Signup", path: "/auth/register" },
 ];
 
 export default function DrawerAppBar() {
@@ -35,44 +35,46 @@ export default function DrawerAppBar() {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}className="navbar">
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        <Link href="/">Booking</Link>
       </Typography>
       <Divider />
       <List>
         {dirs.map((item) => (
-          <ListItem key={item.name} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <Link href={item.path}>
+          <Link href={item.path} key={item.name}>
+            <ListItem disablePadding>
+              <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary={item.name} />
-              </Link>
-            </ListItemButton>
-          </ListItem>
+              </ListItemButton>
+            </ListItem>
+          </Link>
         ))}
       </List>
     </Box>
   );
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box className="navbar" sx={{ display: "flex" }} >
       <CssBaseline />
       <AppBar component="nav">
         <Toolbar>
-          <MenuIcon/>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: "none" } }}
-          ></IconButton>
+          >
+            <MenuIcon />
+          </IconButton>
+
           <Typography
             variant="h6"
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            MUI
+           <Link href="/">Booking</Link>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {dirs.map((item) => (
@@ -103,5 +105,4 @@ export default function DrawerAppBar() {
         </Drawer>
       </nav>
     </Box>
-  );
-}
+  );}
