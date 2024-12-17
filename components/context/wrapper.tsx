@@ -10,12 +10,11 @@ export default function Wrapper({ children }: { children: React.ReactNode }) {
       const response = await fetch("/api/auth/login_cred", { method: "GET" });
       const res = (await response.json()) as AuthResponseConfig;
 
-      if (res ) {
-        console.log(res)
-        if(res.userCredentials){
-            setUserCred(res.userCredentials);
+      if (res) {
+        console.log(res);
+        if (res.userCredentials) {
+          setUserCred(res.userCredentials);
         }
-        
       }
     };
     getCred();
