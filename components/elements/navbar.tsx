@@ -9,11 +9,15 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
-
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import MenuIcon from '@mui/icons-material/Menu';
 import Link from "next/link";
+
+
+
+
 
 const drawerWidth = 240;
 const dirs = [
@@ -55,6 +59,7 @@ export default function DrawerAppBar() {
       <CssBaseline />
       <AppBar component="nav">
         <Toolbar>
+          <MenuIcon/>
           <IconButton
             color="inherit"
             aria-label="open drawer"
